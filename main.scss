@@ -1,0 +1,51 @@
+/* ==========================================================================
+   Pasilobus CSS
+   ========================================================================== */
+
+/*
+ * This is main manifest file. DO NOT WRITE YOUR CSS HERE DIRECTLY.
+ * Only use @import and @tailwind to import all your files.
+
+ * Table of Contents:
+ * 1. Settings
+ * 2. Tools
+ * 3. Generic
+ * 4. Elements
+ * 5. Objects
+ * 6. Components
+ * 7. Utilities
+ */
+
+// Settings
+@import 'settings/settings';
+@import 'settings/settings.colors';
+@import 'settings/settings.breakpoints';
+
+// Tools
+@import 'tools/tools';
+@import 'tools/tools.responsive';
+
+// Generic
+@import 'generic/generic';
+@tailwind preflight; //normalize
+
+// Elements
+@import 'elements/elements';
+
+// Objects
+@import 'objects/objects';
+@import 'objects/objects.grid';
+
+// Components
+@import 'components/components.header';
+@import 'components/components.main';
+@import 'components/components.sidebar';
+@import 'components/components.feed';
+@import 'components/components.table';
+@import 'components/components.button';
+@import 'components/components.title';
+@import 'components/components.card';
+@import 'components/components.dropdown';
+
+// Utilites
+@tailwind utilities;
