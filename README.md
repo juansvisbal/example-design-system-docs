@@ -4,7 +4,7 @@
 > Under construction
 > Not ready for production
 
- 
+
 
 Our Design System houses guidelines, reusable UI components, and other resources we use to create our apps and in-house websites. It is flexible and always evolving to serve the best experience for every situation.  
 
@@ -24,6 +24,8 @@ It gives us a set of utility classes right from the start than can help with fas
 
 We rely heavily on SCSS for mixins, variables, nesting (when required) and use PostCSS for autoprefixing. The latter is important because one less thing to worry about.
 
+All our css will imported in the `main.scss` file.
+
 ## Design
 
 ### Arquitecture
@@ -34,7 +36,7 @@ The importance of ITCSS is that it helps with large scale CSS projects, and will
 
 You can read in-depth here: https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
 
-On each folder you will find more information on the CSS that belong there. 
+On each folder you will find more information on the CSS that belong there.
 
 ### Style Guide
 
@@ -119,7 +121,7 @@ Containers are used to wrap content on your site in specific cases, like setting
   ```
 
 
-- If the container has especial elements to style`.block__container`. 
+- If the container has especial elements to style`.block__container`.
 
   ```
   .main__container {
