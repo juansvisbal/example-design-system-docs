@@ -1,7 +1,9 @@
 ### Elements
 
-All not classes styling specific to our design system
-- Page
-- Typography
-- Media (i.e. images)
-- Tables
+- Unclassed HTML elements.
+- Last layer we see type selectors.
+
+Examples:
+- H1–H6, basic links, lists, etc.
+- `a {} `
+  `blockquote {}`

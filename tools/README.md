@@ -1,3 +1,7 @@
 ### Tools
 
-- Mixins. Grouped in files based on functionality (optional).
+- Globally-available tools. 
+- Public mixins. 
+- Helper functions.
+
+Note: Group in files based on functionality (optional).

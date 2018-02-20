@@ -1,6 +1,9 @@
 # Utilites
 
-Helpers and override classes, actions such-as `[class^="is-"]` o `[class^="has-"]`.
+- Overrides, helpers, utilities.
+- Only affect one piece of the DOM at a time.
+- Usually carry !important
+- Actions such-as `[class^="is-"]` o `[class^="has-"]`.
 
 Tailwind includes many utilities by default.
 

@@ -1,6 +1,11 @@
 ### Objects
 
-Styling for layout, no directly related to components or higher-specific visuals
+- OOCSS.
+- Design patterns.
+- No cosmetics.
+- Styling for layout, no directly related to components or higher-specific visuals.
+- Begin using classes exclusively.
+- Agnostically named (e.g. .ui- list {} ).
 
 Examples:
 - Containers

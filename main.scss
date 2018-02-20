@@ -13,17 +13,15 @@
  * 4. Elements
  * 5. Objects
  * 6. Components
- * 7. Utilities
+ * 7. Templates
+ * 8. Utilities
  */
 
 // Settings
 @import 'settings/settings';
-@import 'settings/settings.colors';
-@import 'settings/settings.breakpoints';
 
 // Tools
 @import 'tools/tools';
-@import 'tools/tools.responsive';
 
 // Generic
 @import 'generic/generic';
@@ -34,18 +32,12 @@
 
 // Objects
 @import 'objects/objects';
-@import 'objects/objects.grid';
 
 // Components
-@import 'components/components.header';
-@import 'components/components.main';
-@import 'components/components.sidebar';
-@import 'components/components.feed';
-@import 'components/components.table';
-@import 'components/components.button';
-@import 'components/components.title';
-@import 'components/components.card';
-@import 'components/components.dropdown';
+@import 'components/components';
+
+// Components
+@import 'templates/templates';
 
 // Utilites
 @tailwind utilities;

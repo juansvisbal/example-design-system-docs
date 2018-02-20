@@ -1,6 +1,8 @@
 ### Components
 
-Actual UI components. Should be reusable without repeating yourself.
+- Designed pieces of UI.
+- Only using classes.
+- More explicitly named (e.g. .products-list {}).
 
 Examples:
 - Buttons

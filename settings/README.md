@@ -6,5 +6,5 @@
 
 Examples:
 - Global font size and line-height
-- Colors
+- Brand colours
 - Breakpoints

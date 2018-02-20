@@ -5,12 +5,12 @@
 > Not ready for production
 
 
-
 Our Design System houses guidelines, reusable UI components, and other resources we use to create our apps and in-house websites. It is flexible and always evolving to serve the best experience for every situation.  
 
 Using this system  help us make work more efficient, and our products more consistent, while still looking, feeling, and sounding uniquely Pasilobus.
 
-You can help us improve the system and ensure it remains current and relevant.  
+We adopt the Atomic Design visual design system, architect with ITCSS, and build with BEM and OOCSS techniques, using SCSS and PostCSS running on Webpack.
+
 
 
 
@@ -97,39 +97,40 @@ Most higher-order components like feeds have the following markup:
 
 
 
-#### Containers
+#### Containers and Wrappers
 
-Containers are used to wrap content on your site in specific cases, like setting a max width and horizonally center. Depending on the use case, you can either use it as a block element or a modifier.
 
-- You can use modifiers and Tailwind's responsive classes to set different classes.
+Containers are used for content on your site in  setting a maximum width and centering on the page.
 
-  ```
+```
   <div class="container md:container--narrow">
     Some content...
   </div>
-  ```
+```
 
-  ```
-  .container {
-      max-width: 1200px;
-      margin: 0 auto;
-  }
+```
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-  .container--narrow {
-      max-width: 900px;
-  }
-  ```
+.container--narrow {
+    max-width: 900px;
+}
+```
 
+Wrappers are used to encapsule components in cases where more advanced positioning is needed (e.g. dropdowns).
 
-- If the container has especial elements to style`.block__container`.
+```
+.dropdown__wrapper {
+    display: table;
+    position: absolute;
+}
 
-  ```
-  .main__container {
-      background: #e5e5e5;
-      padding: 30px;
-  }
-  ```
-
+.dropdown {
+    display: fixed;
+}
+```
 
 
 
@@ -139,8 +140,11 @@ It's important to define when an element's class belongs to a higher order block
 
 ## Inquiries
 
-Any questions, let us know at: support@pasilobus.com.
+You can help us improve the system and ensure it remains current and relevant.  
 
-You can file a new issue if we are missing components or our advice isn’t clear and actionable.
+- Any questions, let us know at: support@pasilobus.com.
+
+- You can file a new issue if we are missing components or our advice isn’t clear and actionable.
+
 
 Learn more about Pasilobus at our website https://www.pasilobus.com
