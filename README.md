@@ -1,4 +1,4 @@
-# Pasilobus Design System
+# Example Design System Docs
 
 > **Warning:**
 > Under construction
@@ -7,7 +7,7 @@
 
 Our Design System houses guidelines, reusable UI components, and other resources we use to create our apps and in-house websites. It is flexible and always evolving to serve the best experience for every situation.  
 
-Using this system  help us make work more efficient, and our products more consistent, while still looking, feeling, and sounding uniquely Pasilobus.
+Using this system  help us make work more efficient, and our products more consistent, while still looking, feeling, and sounding uniquely you.
 
 We adopt the Atomic Design visual design system, architect with ITCSS, and build with BEM and OOCSS techniques, using SCSS and PostCSS running on Webpack.
 
@@ -140,11 +140,8 @@ It's important to define when an element's class belongs to a higher order block
 
 ## Inquiries
 
-You can help us improve the system and ensure it remains current and relevant.  
+You can help me improve the system and ensure it remains current and relevant.  
 
-- Any questions, let us know at: support@pasilobus.com.
+- Any questions, let me know at:  juanscv92@gmail.com
 
 - You can file a new issue if we are missing components or our advice isn’t clear and actionable.
-
-
-Learn more about Pasilobus at our website https://www.pasilobus.com
